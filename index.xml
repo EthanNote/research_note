@@ -6,8 +6,28 @@
     <description>Recent content on Research Note</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Mar 2018 12:34:42 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 27 Mar 2018 00:40:50 +0800</lastBuildDate>
     <atom:link href="/research_note/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Ideas About This Blog</title>
+      <link>/research_note/post/ideas_about_this_blog/</link>
+      <pubDate>Tue, 27 Mar 2018 00:40:50 +0800</pubDate>
+      
+      <guid>/research_note/post/ideas_about_this_blog/</guid>
+      <description>&lt;p&gt;Times goes fast and I can feel my school days comming to the final end. Doing research in the lab is fun and challenging, and the content is always hard to explain. It is always easy to remember how hard a job is but hard to recall the details, we prefer keeping that memory in mind to doing it again.&lt;/p&gt;
+
+&lt;p&gt;My guide teacher has some cool project and what am doing is just one of them. He admit he had give up programming for years, but always keep learning and focus on new born techs. He was a UNIX programmer when he was a student, and these ancient programmers are truely skilled, doing all the task with out Internet, user guide, and tutorials, the MS-DOS was not born yet.&lt;/p&gt;
+
+&lt;p&gt;What my guide teacher gives is not the guidance, but requirements. Actually, he never design a software himself, students do all the development job. He is good at looking for investment and equipment supplies.&lt;/p&gt;
+
+&lt;p&gt;There is another young teacher when I joined this research group, Dr. L. He takes charge of all the buessiness except software development, and that job left to me. Another PhD graduate has joined this group now, Dr. J, L&amp;rsquo;s old school mate. J is unbelievably hard working and is a real C++, MATLAB master, and I have learnt a lot.&lt;/p&gt;
+
+&lt;p&gt;It was J&amp;rsquo;s idea that all the members should keep writing his research note of paper reading, but I decided to go further, write down all the research experience. The school life is comming to the end, the final end, after which I may miss these days.&lt;/p&gt;
+
+&lt;p&gt;So why not write something.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Hello world!</title>
