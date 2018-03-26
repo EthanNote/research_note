@@ -47,25 +47,21 @@
 <li><p>仅更新现有博客内容只需执行一次 1，每进行一次更新执行一次 3</p></li>
 
 <li><p>若在 hugo 分支上进行了在线编辑，执行1、3</p></li>
-
-<li><p>Clone</p></li>
 </ul>
+
+<h3 id="1-clone:a37038ea9c0a627175646a70bd3fc060">1. Clone</h3>
 
 <pre><code>git clone -b hugo https://github.com/EthanNote/research_note.git
 git clone -b master https://github.com/EthanNote/research_note.git public
 </code></pre>
 
-<ol>
-<li>Create new blog:</li>
-</ol>
+<h3 id="2-create-new-blog:a37038ea9c0a627175646a70bd3fc060">2. Create new blog:</h3>
 
 <pre><code>cd research_note
 hugo new post/new_blog.md
 </code></pre>
 
-<ol>
-<li>Commit changes and push to github:</li>
-</ol>
+<h3 id="3-commit-changes-and-push-to-github:a37038ea9c0a627175646a70bd3fc060">3. Commit changes and push to github:</h3>
 
 <pre><code>git commit -a -m &quot;update blog&quot;
 git push origin hugo
@@ -80,7 +76,7 @@ git push origin master
 rm -rf ../old_public
 </code></pre>
 
-<h3 id="for-windows-user:a37038ea9c0a627175646a70bd3fc060">For Windows user</h3>
+<h4 id="for-windows-user:a37038ea9c0a627175646a70bd3fc060">For Windows user</h4>
 
 <pre><code>git commit -a -m &quot;update blog&quot;
 git push origin hugo
