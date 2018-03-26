@@ -34,11 +34,11 @@
   <h1><a href="/research_note/post/hello_world/" title="Hello world!">Hello world!</a></h1>
   
 
-<h2 id="在-pages-上浏览博客">在 Pages 上浏览博客</h2>
+<h2 id="在-pages-上浏览博客:a37038ea9c0a627175646a70bd3fc060">在 Pages 上浏览博客</h2>
 
 <p><a href="https://ethannote.github.io/research_note/">https://ethannote.github.io/research_note/</a></p>
 
-<h2 id="如何写博客">如何写博客</h2>
+<h2 id="如何写博客:a37038ea9c0a627175646a70bd3fc060">如何写博客</h2>
 
 <p>下面是创建并编辑博客的步骤
 - 仅更新现有博客内容只需执行一次 1，每进行一次更新执行一次 3
@@ -69,8 +69,24 @@ cp -r .public/.git public
 cd public 
 git commit -a -m &quot;update&quot;
 git push origin master
+rm -rf ../.public
 </code></pre></li>
 </ol>
+
+<p>For Windows user</p>
+
+<pre><code>git commit -a -m &quot;update blog&quot;
+git push origin hugo
+hugo
+cd ..
+move public .public
+xcopy research_note\public public\ /e
+xcopy .public\.git public\.git\ /e
+cd public 
+git commit -a -m &quot;update&quot;
+git push origin master
+del /F /Q ..\.public
+</code></pre>
 
   <p class="small gray"><time datetime="2018-03-26">Mar 26, 2018</time></p>
 </article>
