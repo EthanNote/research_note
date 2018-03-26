@@ -17,7 +17,9 @@ https://ethannote.github.io/research_note/
 
 - 若在 hugo 分支上进行了在线编辑，执行1、3
 
-1. Clone
+
+
+### 1. Clone
 
 ```
 git clone -b hugo https://github.com/EthanNote/research_note.git
@@ -25,7 +27,7 @@ git clone -b master https://github.com/EthanNote/research_note.git public
 ```
 
 
-2. Create new blog:
+### 2. Create new blog:
 
 ```
 cd research_note
@@ -33,7 +35,7 @@ hugo new post/new_blog.md
 ```
 
 
-3. Commit changes and push to github:
+### 3. Commit changes and push to github:
 
 ```
 git commit -a -m "update blog"
@@ -50,7 +52,7 @@ rm -rf ../old_public
 ```
 
 
-### For Windows user
+#### For Windows user
 
 ```
 git commit -a -m "update blog"
