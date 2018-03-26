@@ -5,7 +5,7 @@ title = "Ideas About This Blog"
 
 +++
 
-Times goes fast and I can feel my school days comming to the final end. Doing research in the lab is fun and challenging, and the content is always hard to explain. It is always easy to remember how hard a job is but hard to recall the details, we prefer keeping that memory in mind to doing it again.
+Time goes fast and I can feel my school days comming to the final end. Doing research in the lab is fun and challenging, and the content is always hard to explain. It is always easy to remember how hard a job is but hard to recall the details, we prefer keeping that memory in mind to doing it again.
 
 My guide teacher has some cool project and what am doing is just one of them. He admit he had give up programming for years, but always keep learning and focus on new born techs. He was a UNIX programmer when he was a student, and these ancient programmers are truely skilled, doing all the task with out Internet, user guide, and tutorials, the MS-DOS was not born yet.
 
