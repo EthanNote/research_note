@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "/research_note/"
 languageCode = "en-us"
 title = "Research Note"
 theme = "heather-hugo"
