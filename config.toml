@@ -1,0 +1,4 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "Research Note"
+theme = "heather-hugo"
