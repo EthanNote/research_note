@@ -23,24 +23,31 @@
 
 &lt;h2 id=&#34;如何写博客:a37038ea9c0a627175646a70bd3fc060&#34;&gt;如何写博客&lt;/h2&gt;
 
-&lt;p&gt;下面是创建并编辑博客的步骤
-- 仅更新现有博客内容只需执行一次 1，每进行一次更新执行一次 3
-- 若在 hugo 分支上进行了在线编辑，执行1、3&lt;/p&gt;
+&lt;p&gt;下面是创建并编辑博客的步骤&lt;/p&gt;
 
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Clone&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;仅更新现有博客内容只需执行一次 1，每进行一次更新执行一次 3&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;若在 hugo 分支上进行了在线编辑，执行1、3&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Clone&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;pre&gt;&lt;code&gt;git clone -b hugo https://github.com/EthanNote/research_note.git
 git clone -b master https://github.com/EthanNote/research_note.git public
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;li&gt;&lt;p&gt;Create new blog:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create new blog:&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;pre&gt;&lt;code&gt;cd research_note
 hugo new post/new_blog.md
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;li&gt;&lt;p&gt;Commit changes and push to github:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Commit changes and push to github:&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;pre&gt;&lt;code&gt;git commit -a -m &amp;quot;update blog&amp;quot;
 git push origin hugo
@@ -53,8 +60,7 @@ cd public
 git commit -a -m &amp;quot;update&amp;quot;
 git push origin master
 rm -rf ../old_public
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;/ol&gt;
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h3 id=&#34;for-windows-user:a37038ea9c0a627175646a70bd3fc060&#34;&gt;For Windows user&lt;/h3&gt;
 

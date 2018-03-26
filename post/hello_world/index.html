@@ -41,24 +41,31 @@
 
 <h2 id="如何写博客:a37038ea9c0a627175646a70bd3fc060">如何写博客</h2>
 
-<p>下面是创建并编辑博客的步骤
-- 仅更新现有博客内容只需执行一次 1，每进行一次更新执行一次 3
-- 若在 hugo 分支上进行了在线编辑，执行1、3</p>
+<p>下面是创建并编辑博客的步骤</p>
 
-<ol>
-<li><p>Clone</p>
+<ul>
+<li><p>仅更新现有博客内容只需执行一次 1，每进行一次更新执行一次 3</p></li>
+
+<li><p>若在 hugo 分支上进行了在线编辑，执行1、3</p></li>
+
+<li><p>Clone</p></li>
+</ul>
 
 <pre><code>git clone -b hugo https://github.com/EthanNote/research_note.git
 git clone -b master https://github.com/EthanNote/research_note.git public
-</code></pre></li>
+</code></pre>
 
-<li><p>Create new blog:</p>
+<ol>
+<li>Create new blog:</li>
+</ol>
 
 <pre><code>cd research_note
 hugo new post/new_blog.md
-</code></pre></li>
+</code></pre>
 
-<li><p>Commit changes and push to github:</p>
+<ol>
+<li>Commit changes and push to github:</li>
+</ol>
 
 <pre><code>git commit -a -m &quot;update blog&quot;
 git push origin hugo
@@ -71,8 +78,7 @@ cd public
 git commit -a -m &quot;update&quot;
 git push origin master
 rm -rf ../old_public
-</code></pre></li>
-</ol>
+</code></pre>
 
 <h3 id="for-windows-user:a37038ea9c0a627175646a70bd3fc060">For Windows user</h3>
 
