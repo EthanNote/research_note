@@ -37,7 +37,7 @@ hugo
 cd ..
 mv public .public
 cp -r research_note/public .
-cp -r .public/.git pumoveblic
+cp -r .public/.git public
 cd public 
 git commit -a -m "update"
 git push origin master
