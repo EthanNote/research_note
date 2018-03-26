@@ -46,6 +46,7 @@ rm -rf ../old_public
 
 
 For Windows user
+
 ```
 git commit -a -m "update blog"
 git push origin hugo
