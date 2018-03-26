@@ -33,19 +33,19 @@
 
 &lt;h3 id=&#34;1-clone:a37038ea9c0a627175646a70bd3fc060&#34;&gt;1. Clone&lt;/h3&gt;
 
-&lt;pre&gt;&lt;code&gt;git clone -b hugo https://github.com/EthanNote/research_note.git
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;git clone -b hugo https://github.com/EthanNote/research_note.git
 git clone -b master https://github.com/EthanNote/research_note.git public
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;h3 id=&#34;2-create-new-blog:a37038ea9c0a627175646a70bd3fc060&#34;&gt;2. Create new blog:&lt;/h3&gt;
 
-&lt;pre&gt;&lt;code&gt;cd research_note
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cd research_note
 hugo new post/new_blog.md
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;h3 id=&#34;3-commit-changes-and-push-to-github:a37038ea9c0a627175646a70bd3fc060&#34;&gt;3. Commit changes and push to github:&lt;/h3&gt;
 
-&lt;pre&gt;&lt;code&gt;git commit -a -m &amp;quot;update blog&amp;quot;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;git commit -a -m &amp;quot;update blog&amp;quot;
 git push origin hugo
 hugo
 cd ..
@@ -60,7 +60,7 @@ rm -rf ../old_public
 
 &lt;h4 id=&#34;for-windows-user:a37038ea9c0a627175646a70bd3fc060&#34;&gt;For Windows user&lt;/h4&gt;
 
-&lt;pre&gt;&lt;code&gt;git commit -a -m &amp;quot;update blog&amp;quot;
+&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;git commit -a -m &amp;quot;update blog&amp;quot;
 git push origin hugo
 hugo
 cd ..
