@@ -35,13 +35,13 @@ git commit -a -m "update blog"
 git push origin hugo
 hugo
 cd ..
-mv public .public
+mv public old_public
 cp -r research_note/public .
-cp -r .public/.git public
+cp -r old_public/.git public
 cd public 
 git commit -a -m "update"
 git push origin master
-rm -rf ../.public
+rm -rf ../old_public
 ```
 
 
@@ -51,11 +51,11 @@ git commit -a -m "update blog"
 git push origin hugo
 hugo
 cd ..
-move public .public
+move public old_public
 xcopy research_note\public public\ /e
-xcopy .public\.git public\.git\ /e
+xcopy old_public\.git public\.git\ /e
 cd public 
 git commit -a -m "update"
 git push origin master
-del /F /Q ..\.public
+del /F /Q ..\old_public
 ```
