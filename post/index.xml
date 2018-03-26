@@ -56,7 +56,7 @@ rm -rf ../old_public
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;For Windows user&lt;/p&gt;
+&lt;h3 id=&#34;for-windows-user:a37038ea9c0a627175646a70bd3fc060&#34;&gt;For Windows user&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt;git commit -a -m &amp;quot;update blog&amp;quot;
 git push origin hugo
