@@ -21,7 +21,7 @@ https://ethannote.github.io/research_note/
 
 ### 1. Clone
 
-```
+```bash
 git clone -b hugo https://github.com/EthanNote/research_note.git
 git clone -b master https://github.com/EthanNote/research_note.git public
 ```
@@ -29,7 +29,7 @@ git clone -b master https://github.com/EthanNote/research_note.git public
 
 ### 2. Create new blog:
 
-```
+```bash
 cd research_note
 hugo new post/new_blog.md
 ```
@@ -37,7 +37,7 @@ hugo new post/new_blog.md
 
 ### 3. Commit changes and push to github:
 
-```
+```bash
 git commit -a -m "update blog"
 git push origin hugo
 hugo
@@ -54,7 +54,7 @@ rm -rf ../old_public
 
 #### For Windows user
 
-```
+```cmd
 git commit -a -m "update blog"
 git push origin hugo
 hugo
