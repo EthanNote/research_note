@@ -52,6 +52,11 @@ a { color: #09c; text-decoration: none; }
 a:hover { color: #069; }
 h1 a { color: #333;}
 
+pre{
+  background-color: aliceblue;
+  font-family: "Consolas";
+}
+
 footer p,
 .wrap {
   width: 90%;
