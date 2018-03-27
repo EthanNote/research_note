@@ -198,12 +198,16 @@ article p {
 }
 article code {
   color: #333;
+
+  font-family: consolas, "Courier New", monospace;
+}
+pre{
   background-color: #eee;
   padding: 0 3px;
   margin: 0 3px;
   border: 1px solid #ccc;
-  font-family: consolas, "Courier New", monospace;
 }
+
 article pre code {
   font-family: consolas, "Courier New", monospace;
 }
