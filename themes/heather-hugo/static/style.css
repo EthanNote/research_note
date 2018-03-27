@@ -54,7 +54,10 @@ h1 a { color: #333;}
 
 pre{
   background-color: aliceblue;
-  font-family: "Consolas";
+  padding: 5px;
+}
+code{
+  font-family: "consolas";
 }
 
 footer p,
