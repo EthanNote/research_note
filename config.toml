@@ -4,7 +4,7 @@
 # theme = "heather-hugo"
 
 baseurl = "/research_note/"
-languageCode = "en"
+languageCode = "zh-cn"
 title = "Research Note"
 theme = "angels-ladder"
 disqusShortname = "EthanNote"
