@@ -17,6 +17,7 @@ mv public old_public   #remove everything but .git
 cp -r research_note/public .
 cp -r old_public/.git public
 cd public 
+git add .
 git commit -a -m "update"
 git push origin master
 
