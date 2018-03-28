@@ -2,18 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>/research_note/</loc>
+    <loc>https://ethannote.github.io/research_note/</loc>
     <lastmod>2018-03-27T00:40:50+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/research_note/post/ideas_about_this_blog/</loc>
+    <loc>https://ethannote.github.io/research_note/post/ideas_about_this_blog/</loc>
     <lastmod>2018-03-27T00:40:50+08:00</lastmod>
   </url>
   
   <url>
-    <loc>/research_note/post/hello_world/</loc>
+    <loc>https://ethannote.github.io/research_note/post/hello_world/</loc>
     <lastmod>2018-03-26T12:34:42+08:00</lastmod>
   </url>
   
