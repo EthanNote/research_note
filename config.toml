@@ -1,3 +1,9 @@
+# bootstrap 4 config
+baseurl = "/research_note/"
+languageCode = "en-us"
+title = "Research Note"
+theme = "hugo-theme-bootstrap4-blog"
+
 # Heather config
 # baseurl = "/research_note/"
 # languageCode = "en-us"
@@ -24,9 +30,8 @@
 
 
 # paper now config
-
-baseurl         = "https://ethannote.github.io/research_note/"
-theme           = "hugo-paper-now"
-languageCode    = "en-us"
-title           = "Site Title | Research Note"
-canonifyurls    = true
+# baseurl         = "https://ethannote.github.io/research_note/"
+#theme           = "hugo-paper-now"
+#languageCode    = "en-us"
+#title           = "Site Title | Research Note"
+#canonifyurls    = true
