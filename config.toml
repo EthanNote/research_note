@@ -1,5 +1,5 @@
 # bootstrap 4 config
-baseurl = "/research_note/"
+baseurl = "https://ethannote.github.io/research_note/"
 languageCode = "en-us"
 title = "Research Note"
 theme = "hugo-theme-bootstrap4-blog"
