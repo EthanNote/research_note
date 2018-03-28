@@ -1,21 +1,32 @@
+# Heather config
 # baseurl = "/research_note/"
 # languageCode = "en-us"
 # title = "Research Note"
 # theme = "heather-hugo"
 
-baseurl = "/research_note/"
-languageCode = "zh-cn"
-title = "Research Note"
-theme = "angels-ladder"
-disqusShortname = "EthanNote"
+# angels ladder config
+#baseurl = "/research_note/"
+#languageCode = "zh-cn"
+#title = "Research Note"
+#theme = "angels-ladder"
+#disqusShortname = "EthanNote"
 
-[Params]
-subtitle = "Life is short, use Python!"
-# facebook = "https://facebook.com/foobar"
-# twitter = "https://twitter.com/foobar"
-github = "https://github.com/EthanNote"
-showsRSS = true
-profile = "/images/profile.png"
-copyright = "Written by EthanNote"
-# analytics = "UA-XXXXXXXX-X"
-# shareThis = "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX"
+#[Params]
+#subtitle = "Life is short, use Python!"
+## facebook = "https://facebook.com/foobar"
+## twitter = "https://twitter.com/foobar"
+#github = "https://github.com/EthanNote"
+#showsRSS = true
+#profile = "/images/profile.png"
+#copyright = "Written by EthanNote"
+## analytics = "UA-XXXXXXXX-X"
+## shareThis = "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX"
+
+
+# paper now config
+
+baseurl         = "https://ethannote.github.io/research_note/"
+theme           = "hugo-paper-now"
+languageCode    = "en-us"
+title           = "Site Title | Research Note"
+canonifyurls    = true
