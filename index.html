@@ -12,7 +12,7 @@
 
 
 
-<meta property="og:updated_time" content="2018-03-27T00:40:50&#43;08:00"/>
+<meta property="og:updated_time" content="2018-03-27T14:33:51&#43;08:00"/>
 
 
 
@@ -40,7 +40,7 @@
     "@type": "Person",
     "name": "EthanNote"
   },
-  "dateModified": "2018-03-27T00:40:50&#43;08:00",
+  "dateModified": "2018-03-27T14:33:51&#43;08:00",
   "keywords": "",
   "description": "Life is short, use Python!"
 }
@@ -103,6 +103,28 @@
 
 <article class="blog-post">
   <header>
+    <h2 class="blog-post-title"><a href="https://ethannote.github.io/research_note/post/optimal_cover/">最优覆盖问题</a></h2>
+    <p class="blog-post-meta"><time datetime="2018-03-27T14:33:51&#43;08:00">Tue Mar 27, 2018</time> by EthanNote</p>
+  </header>
+  问题描述 在二维平面内，定义某一点的视野范围为：所有与该点所连线段不与其它线段相交的点的集合。将二维平面视为建筑的俯视图， 建筑的墙壁构成了视野障碍，某一点的视野即站在该点处所能看到的空间范围。
+在此关心这么几个问题： 1. 如何寻找场景中的最优观察点，在该点能够获得最大视野范围。 2. 如何寻找若干个最优点，各店覆盖范围的丙级最大。 3. 如何设置观察距离权重，即获得更多的近距离视野范围。 4. 若新增约束条件，观察范围必须包含给定的若干个点，该如何处理
+射线扫描 从观察点向任意方向引出一条射线，该射线与碰到的第一个障碍物的焦点即在该方向上观察到的最远位置。将射线旋转一周，即可得到观察范围。
+几何问题 设线段两端点坐标为 L1（x1, x2）, L2(y1, y2)。射线从点R（p, q）出发，沿着方向 θ 照射。求
+ 射线是否与线段相交 若相交，从出发点到交点的距离为多少  三角计算 O, L1, L2 构成一个三角形，由射线方向角与OL1, OL2的方向角大小关系可判断射线是否与线段相交。假设射线与L1，L2相交于P，则在由三角形 O L1 P 中，由于角O，大小已知，故可以计算 OP。
+优化计算 时间复杂度 若有N条线段，扫描方向为M，则计算时间复杂度为O（MN），对于整个场景，若要进行各个位置上的覆盖范围计算，则时间复杂度为 O(MN/Q^2),Q为场景中采样点的间隔距离
+反面剔除 TBD
+由粗到细 TBD
+导数估计 TBD
+  <a href='https://ethannote.github.io/research_note/post/optimal_cover/'>Read more →</a>
+</article> 
+
+
+
+
+
+
+<article class="blog-post">
+  <header>
     <h2 class="blog-post-title"><a href="https://ethannote.github.io/research_note/post/ideas_about_this_blog/">Ideas About This Blog</a></h2>
     <p class="blog-post-meta"><time datetime="2018-03-27T00:40:50&#43;08:00">Tue Mar 27, 2018</time> by EthanNote</p>
   </header>
@@ -137,7 +159,7 @@ My guide teacher has some cool project and what am doing is just one of them.
 <article class="blog-post">
   <header>
     <h2 class="blog-post-title"><a href="https://ethannote.github.io/research_note/post/">Posts</a></h2>
-    <p class="blog-post-meta"><time datetime="2018-03-27T00:40:50&#43;08:00">Tue Mar 27, 2018</time> by EthanNote</p>
+    <p class="blog-post-meta"><time datetime="2018-03-27T14:33:51&#43;08:00">Tue Mar 27, 2018</time> by EthanNote</p>
   </header>
   
   <a href='https://ethannote.github.io/research_note/post/'>Read more →</a>
@@ -165,6 +187,8 @@ My guide teacher has some cool project and what am doing is just one of them.
     <h4>Recent Posts</h4>
     <ol class="list-unstyled">
 
+
+<li><a href="/research_note/post/optimal_cover/">最优覆盖问题</a></li>
 
 <li><a href="/research_note/post/ideas_about_this_blog/">Ideas About This Blog</a></li>
 
