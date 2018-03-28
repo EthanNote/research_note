@@ -13,10 +13,10 @@
     
     <item>
       <title>最优覆盖问题</title>
-      <link>https://ethannote.github.io/research_note/post/optimal_cover/</link>
+      <link>https://ethannote.github.io/research_note/post/optimal_cover_problem/</link>
       <pubDate>Tue, 27 Mar 2018 14:33:51 +0800</pubDate>
       
-      <guid>https://ethannote.github.io/research_note/post/optimal_cover/</guid>
+      <guid>https://ethannote.github.io/research_note/post/optimal_cover_problem/</guid>
       <description>问题描述 在二维平面内，定义某一点的视野范围为：所有与该点所连线段不与其它线段相交的点的集合。将二维平面视为建筑的俯视图， 建筑的墙壁构成了视野障碍，某一点的视野即站在该点处所能看到的空间范围。
 在此关心这么几个问题： 1. 如何寻找场景中的最优观察点，在该点能够获得最大视野范围。 2. 如何寻找若干个最优点，各店覆盖范围的丙级最大。 3. 如何设置观察距离权重，即获得更多的近距离视野范围。 4. 若新增约束条件，观察范围必须包含给定的若干个点，该如何处理
 射线扫描 从观察点向任意方向引出一条射线，该射线与碰到的第一个障碍物的焦点即在该方向上观察到的最远位置。将射线旋转一周，即可得到观察范围。
