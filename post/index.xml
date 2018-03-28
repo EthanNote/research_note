@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Research Note</title>
-    <link>/research_note/post/</link>
+    <link>https://ethannote.github.io/research_note/post/</link>
     <description>Recent content in Posts on Research Note</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 27 Mar 2018 00:40:50 +0800</lastBuildDate>
     
-	<atom:link href="/research_note/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ethannote.github.io/research_note/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ideas About This Blog</title>
-      <link>/research_note/post/ideas_about_this_blog/</link>
+      <link>https://ethannote.github.io/research_note/post/ideas_about_this_blog/</link>
       <pubDate>Tue, 27 Mar 2018 00:40:50 +0800</pubDate>
       
-      <guid>/research_note/post/ideas_about_this_blog/</guid>
+      <guid>https://ethannote.github.io/research_note/post/ideas_about_this_blog/</guid>
       <description>Time goes fast and I can feel my school days comming to the final end. Doing research in the lab is fun and challenging, and the content is always hard to explain. It is always easy to remember how hard a job is but hard to recall the details, we prefer keeping that memory in mind to doing it again.
 My guide teacher has some cool project and what am doing is just one of them.</description>
     </item>
     
     <item>
       <title>Hello world!</title>
-      <link>/research_note/post/hello_world/</link>
+      <link>https://ethannote.github.io/research_note/post/hello_world/</link>
       <pubDate>Mon, 26 Mar 2018 12:34:42 +0800</pubDate>
       
-      <guid>/research_note/post/hello_world/</guid>
+      <guid>https://ethannote.github.io/research_note/post/hello_world/</guid>
       <description>在 Pages 上浏览博客 https://ethannote.github.io/research_note/
 如何写博客 下面是创建并编辑博客的步骤
  仅更新现有博客内容只需执行一次 1，每进行一次更新执行一次 3
