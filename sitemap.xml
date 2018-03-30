@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ethannote.github.io/research_note/post/my_new_dev_os/</loc>
+    <lastmod>2018-03-30T23:36:27+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ethannote.github.io/research_note/post/optimal_cover_problem/</loc>
     <lastmod>2018-03-27T14:33:51+08:00</lastmod>
   </url>
@@ -23,19 +28,38 @@
   </url>
   
   <url>
+    <loc>https://ethannote.github.io/research_note/categories/category/</loc>
+    <lastmod>2018-03-30T23:36:27+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ethannote.github.io/research_note/post/</loc>
-    <lastmod>2018-03-27T14:33:51+08:00</lastmod>
+    <lastmod>2018-03-30T23:36:27+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ethannote.github.io/research_note/</loc>
-    <lastmod>2018-03-27T14:33:51+08:00</lastmod>
+    <lastmod>2018-03-30T23:36:27+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ethannote.github.io/research_note/tags/tag1/</loc>
+    <lastmod>2018-03-30T23:36:27+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ethannote.github.io/research_note/tags/tag2/</loc>
+    <lastmod>2018-03-30T23:36:27+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ethannote.github.io/research_note/tags/</loc>
+    <lastmod>2018-03-30T23:36:27+08:00</lastmod>
     <priority>0</priority>
   </url>
   
