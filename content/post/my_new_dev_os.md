@@ -1,7 +1,7 @@
 +++
 title = "My New Dev OS"
 date = 2018-03-30T23:36:27+08:00
-images = ["/2016/10/image.jpg"]
+#images = ["/2016/10/image.jpg"]
 description = ""
 categories = ["category"]
 tags = ["tag1", "tag2"]
